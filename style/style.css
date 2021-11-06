@@ -1,0 +1,356 @@
+/*Link font family Roboto from google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+/*initialisation*/
+
+
+
+* {
+  box-sizing: border-box;
+  margin : 0 ;
+  padding : 0 ; 
+}
+.main{
+    padding-top: 120px;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(17, 189, 152);
+    height: 100px;
+    font-family: 'Gemunu Libre', sans-serif;
+
+}
+.paragraph{
+    width: 450px;
+    font-size: 120%;
+    color: grey;
+
+}
+.table1{
+    display: flex;
+    justify-content: center;
+}
+.head_menu_container{
+    height: 60px;
+    width:100%;
+    position: fixed;
+    z-index: 2000;
+    
+}
+.head_menu{
+    height:70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center   ;
+    background-color: white;
+}
+.navmenu{
+ height: 200px;
+display: flex;
+align-items:flex-start;
+position: relative;
+
+}
+.navmenu_list{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: none;
+    list-style-type: none;
+    position: relative;
+    height:200px;
+    align-items: center;
+}
+.downmenu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-top: 10px;
+}
+.downmenu li{
+    color: grey;
+    margin: 5px;
+}
+
+.departments:hover .downmenu{
+display :flex;
+flex-direction:column;
+
+
+}
+.departments{
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    color: grey;
+}
+.navmenu a{
+    text-decoration: none;
+    color: grey;
+    list-style: none;
+}
+.navmenu a:hover{
+    color:rgb(17, 189, 152) ;
+}
+.departments:hover{
+    color: rgb(17, 189, 152);
+}
+
+.bar{
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.bar h2 {
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+}
+.aquabox{
+    background-color: rgb(17, 189, 152);
+    display: flex;
+    font-size: 20px;
+   flex-direction: column;
+   height: 350px;
+   width: 300px;
+   justify-content:space-between;
+   padding: 20px 20px 40px;
+   margin :20px;
+   color:white;
+   font-family: 'Karla', sans-serif;
+   font:lighter;
+   border-radius: 15px;
+
+}
+.aquabox:hover{
+    
+    background-color: rgb(98, 214, 189)
+}
+.aquabox1{
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bluebox{
+    border-radius: 15px;
+    background-color:rgb(101, 127, 245) ;
+    display: flex;
+    font-size: 20px;
+   flex-direction: column;
+   height: 350px;
+   width: 300px;
+   justify-content:space-between;
+   padding: 20px 20px 40px;
+   margin :20px;
+   color:white;
+   font-family: 'Karla', sans-serif;
+   font:lighter;
+}
+.bluebox:hover{
+    background-color: rgb(132, 153, 247) ;
+}
+.bluebox1{
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.blackbox{
+    background-color: rgb(21, 39, 35);
+    display: flex;
+    font-size: 20px;
+   flex-direction: column;
+   height: 350px;
+   width: 300px;
+   justify-content:space-between;
+   padding: 20px;
+   margin :20px;
+   font-family: 'Karla', sans-serif;
+   font:lighter;
+   border-radius: 15px;
+   color: white;
+}
+.blackbox:hover{
+  background-color:  rgb(66, 68, 68)
+}
+.blackbox1{
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+select {
+   color: white;
+    text-decoration: underline;
+    background-color:transparent;
+    border:transparent
+    
+}
+option{
+    color: black;
+}
+.company{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 30px 150px;
+    font-size: 15px;
+    color: rgb(17, 189, 152);
+    justify-content: space-between;    
+    text-align: left;
+    font-weight: lighter;
+    
+
+}
+.company h2{
+    font-size: 20px;
+   
+}
+.logos{
+    width: 650px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.healthcare{
+    margin: 50px 0px 0px ;
+    height: 600px;
+    background-color:rgb(196, 233, 235) ;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    padding-top: 60px;
+}
+.part1{
+        display: flex;
+       flex-direction: column;
+        width: 400px;
+        justify-content: space-evenly  ;
+        height: 300px;
+        margin-left: 200px;
+        align-items: flex-start;
+        font-size: 15px;
+       color: grey;
+}
+.part1 h2{
+    color:rgb(17, 189, 152);
+    font-size: 30px;
+}
+.image1{
+    position:absolute;
+    height: 370px;
+    width: 400px;
+    left: 130px;
+    
+}
+.save{
+    width: 100%;
+    display: block;
+    padding: 26px;
+    color: white;
+    position: relative;
+    background-color: white;
+}
+
+.bigbox{
+    display: flex;
+    align-content: center;
+    align-items: space-between;
+
+    
+}
+.flag{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: grey;
+}
+.flag h3{
+    padding :15px 0px;
+    font-size: 20px ;
+    color:rgb(17, 189, 152) ;
+}
+.vision
+{display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160px;
+    font-size: 15px;
+    text-align: center;
+    color: lightslategray;
+}
+.vision h2{
+    color:rgb(17, 189, 152)}
+.card-title{
+    color: grey;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    margin:80px 150px;
+   justify-content: space-between;
+    height: 700px;
+}
+.firstrow{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.secondrow{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 110px 0px;
+}
+.SEE-ALL-CURRENT-OPENINGS{
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:7px 10px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    color: grey;
+}
